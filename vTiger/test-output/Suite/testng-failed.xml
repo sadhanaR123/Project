@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="invoice.TC_13Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="createInvoiceWith_InvalidCustomerNo"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- invoice.TC_13Test -->
+      <class name="invoice.TC_15Test">
+        <methods>
+          <include name="check_cancel_functionality"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- invoice.TC_15Test -->
+      <class name="invoice.TC_14Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="createInvoiceWith_InvalidSalesComission"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- invoice.TC_14Test -->
+      <class name="invoice.TC_12Test">
+        <methods>
+          <include name="MassEdit_MultipleInvoiceDetails"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- invoice.TC_12Test -->
+      <class name="invoice.TC_11Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="delete_MultipleInvoiceDetails_FromListView"/>
+        </methods>
+      </class> <!-- invoice.TC_11Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
